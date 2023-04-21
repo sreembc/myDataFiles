@@ -1,0 +1,333 @@
+Release title,Feature Title,Feature Description,Release Date,Target
+Better text editing & copy/paste,Select text across multiple blocks,"We finally did it. Notion’s text editor has been completely retooled to combine the flexibility of “blocks” with the familiar feeling of a traditional word processor. Here’s what that means for you:
+On desktop: Click & drag to select, cut, copy & paste partial text across paragraphs, bullet lists, callouts & more — without having to select each block in its entirety.
+On mobile: Now you can select or copy/paste multiple items at once! Double tap to select text, and drag your selection to include content across multiple blocks.
+Partial text selection across blocks will be supported on all platforms except Firefox. We’re actively working with the Mozilla team to enable this feature in Firefox as soon as possible.","January 8, 2022",1
+Better text editing & copy/paste,Navigate between database items in Peek View,"Quickly jump to the next/previous item in your databases, using the new 🔼 and 🔽 buttons at the top left of the pop-up window. You no longer need to dismiss the pop-up and select another database item one at a time.","January 8, 2022",1
+Better text editing & copy/paste,Customize which page opens first when you launch Notion,"When you first launch your Notion app, do you prefer it always open to the page at the very top of your sidebar? Or would you rather see your most recently visited page? Now you can set your preference in Settings & members → My notifications & settings → Open on start.","January 8, 2022",1
+New database permissions 🔒,Can Edit Content permission level,"Notion databases give you and your teammates a customizable place to track engineering sprints, company OKRs, content calendars and more. And now you have even more control over who can do what in a database.
+The new “Can Edit Content” permission level prevents accidental edits to the database’s structure — views, filters, property names, property types & more — while still allowing your colleagues to edit the content inside the database pages. Just open the Share menu of a database to get started.","February 8, 2022",2
+New database permissions 🔒,Embed content from Hex & Deepnote,Using Notion to keep your data team organized? Now you can embed collaborative SQL and Python notebooks directly in your notes & docs in Notion. Just type /hex or /deepnote to get started.,"February 8, 2022",2
+Notion in French 🇫🇷🎊,Notion is now available in French (beta),"A huge and vibrant community of Notion users speaks French — we can't wait to see this grow even more! We're thrilled to make our product feel native to everyone who has supported us in English for so long, and many new people, too.
+After changing your language to French, click Templates at the bottom of your left-hand sidebar to find French templates
+Go to notion.so/fr-fr/help to find translated guides & tutorials
+To change your language settings on your desktop, go to Settings and Members, then select French under Languages and regions.
+Mobile and desktop apps will be released in batches; please wait until your app reflects the latest version. If your phone language is set to French, the Notion app will automatically change to French when available.","February 15, 2022",2
+Connect your tools with the API 🧰,The API is out of beta,"Since we launched the API into beta last year, over 30,000 people have joined our developer community, building everything from workflow automations and content publishing systems, to productivity tools and search aggregators, all on the Notion platform.
+And for the last several months, we’ve been working hard to expand the API’s capabilities to make it even easier to build with Notion. Now the API is out of beta, and better than ever.
+New Integration Gallery: Discover powerful integrations built by Notion and by our partners, learn more about what they do, and add them to your workspace, all in one place. Check it out at notion.com/integrations.
+New API functionality and improved documentation: The API now supports even more block types, including synced blocks, multi-column pages, simple tables and more. We’ve also made the API more stable and reliable, and improved our documentation to make it easier for developers to build and test integrations.
+New controls for admins (Enterprise Plan): Admins on an Enterprise Plan can now pre-approve specific integrations for use in their workspace, for more transparency and control. Admins can also view which integrations are being used in their workspace, who’s using them, and disconnect integrations for specific users.
+Learn more at developers.notion.com →","March 3, 2022",3
+Connect your tools with the API 🧰,Better dark mode,"Your Notion workspace is like a cozy living room, a place to hang out and get work done — and dark mode is like turning off the lights. It gives your space a different look and feel, and can be helpful with eye strain and readability too.
+Now dark mode is even better! We updated the color palette to include deeper hues, higher contrast, and more saturated colors, keeping accessibility in mind throughout the redesign. To turn on dark mode in your workspace, go to Settings & members → My notifications & settings → Appearance.","March 3, 2022",3
+"Notion 2.15, now with better databases",Quick filters,"Filters are easier to use. Limit the items you see in a database view, quickly and easily. Filters that used to require 8+ clicks to create can now be applied in just 2-3 clicks.
+Filters and sorts don’t affect others until you save. Make changes to your team’s shared database views without disrupting anyone else. Click the Save for everyone button to apply your changes for everyone on your team or Reset to discard changes.
+Advanced filters enable complex workflows. There when you need them, and out of sight when you don’t. Create nested filter groups up to three layers deep for endless possibilities.","March 15, 2022",3
+"Notion 2.15, now with better databases",Create views from existing databases,"Create custom views to the same database across multiple pages. You’ll see a new option to select a data source whenever you add a new view, allowing you to embed custom synced copies of existing databases in your workspace.
+Copy an existing view, instantly. After you select a data source, you’ll see a new menu containing all the existing views of that database. Hover on each to preview, then pick one to instantly recreate the view’s filters, sorts, grouping, property visibility & more.
+Show content from multiple databases within a single view block. For example, one tab could display a view of your “Projects” database, while another pulls in data from a more granular “Tasks” database, unifying workflows that depend on multiple databases together.","March 15, 2022",3
+"Notion 2.15, now with better databases",Streamlined new design,"Discover and switch views with tabs. Views let you and your team slice and dice data however you need. And now they’re just one click away — access different views with tabs at the top of each database.
+Customize database views from a single menu. Before, view options were spread across multiple menus and dropdowns. Now they’re all accessible from one place, where you can change the view layout, visible properties, filters & sorts, grouping and more.
+Hide the database title. Whether you’re creating a personal dashboard with a minimalist look, or trying to clean up your team’s homepage, now you have the option to hide the title of the source database in a linked view. A top feature request!","March 15, 2022",3
+"Notion 2.15, now with better databases",Deeply nested sub-pages load 50% faster,"Notion supports an infinite hierarchy — that means you can store pages inside pages, inside pages, inside pages, forever. But we noticed that for pages that are nested more than a few levels deep, your experience becomes more sluggish.
+Thanks to a few under-the-hood improvements, these pages now load and save over 50% faster. 57%, to be exact!","March 15, 2022",3
+"Notion 2.16, now with faster databases",Large databases load 2.5× faster,"When you’re working with hundreds or thousands of docs or tasks, databases help you keep everything organized. But in the past, Notion’s servers would try to load the entire database all at once, making giant databases quite slow.
+Now, your databases only load what you need, when you need it. As a result, large databases are more than twice as fast as before — and this improvement is even more noticeable on databases with over 1,000 rows.","April 14, 2022",4
+"Notion 2.16, now with faster databases",Export filtered database views,"Databases can store huge quantities of content — and filters help you find what you need. But before, it was impossible to export a database without including all of its content, even if a filter was applied.
+Now, you can export your filtered database views as PDF, HTML & CSV. Just click the ••• at the top right of your app, select Export, and choose “Current view” for the “Include databases” option","April 14, 2022",4
+"Notion 2.16, now with faster databases",Wrap individual columns,"In your Table view databases, some cells can start to overflow with content — especially text & URL properties. You may want to “wrap” the cells to see all this content at a glance, or turn off wrapping to hide the overflowing content. But before, this option could only be applied to the entire database.
+Now, you can customize text wrapping for each individual column. Just click on the column header, and you’ll see a new toggle to “Wrap column.”","April 14, 2022",4
+"Notion 2.16, now with faster databases",Paste links to specific blocks,"It’s easy to link to a Notion page. But what if you wanted to point to a specific part of the page? Just click the ⋮⋮ to the left of any block, then Copy link to block to copy the URL to your clipboard.
+Now when you paste the link to a specific block in a Notion page, you’ll see a Mention block option that creates a dynamic inline link to that content.","April 14, 2022",4
+"Notion 2.16, now with faster databases",Hover your cursor to see long titles that got cut off,"If your page titles or database property values are quite long, they’ll probably get cut off when you try to view them in various parts of the app. Now there are tooltips to see the full names of:
+Menu items in some dropdown menus for quick filters, select & multi-select values
+Related pages with long titles when you hover over relation property values when you’re in page view
+Database property titles when you hover your cursor over column headings in Table view","April 14, 2022",4
+"Link previews for Figma, Dropbox & more","Bring files from Figma, Dropbox, Zoom & Microsoft into Notion","View files, designs, and meeting details, right inside Notion. Just paste a link from Figma, Dropbox, Zoom, Microsoft Sharepoint & OneDrive to create a link preview!
+Include your design team’s latest mocks from Figma right inside your meeting notes
+See fully interactive previews of CSVs, GIFs, MP3s & more from your Dropbox
+The status & meeting ID of Zoom meetings update automatically in the link preview
+Host your images in Microsoft OneDrive or Sharepoint, then paste the link in any Notion doc to see a full preview
+When you create a link preview, it will be visible to anyone who has access to that page. If there are folks on your team who don't have access to these tools, link previews are a great way to bring more visibility to this work.","April 19, 2022",4
+Easier relation property setup,Easier relation property setup,"Relation properties make your databases even more powerful, helping you build workflows — like knowing which tasks are associated with certain projects.
+
+Before, adding a relation always created two properties: one on each database. But you don’t always need the extra property. Now, you have the choice:
+One property (default): Add items from Database B to Database A, without creating another property on Database B. Backlinks are added to the related pages on Database B to make navigation easy, without adding clutter.
+Two properties (optional): After you add a relation, click the “Show on the other database” toggle to create another property on Database B, so you can see a list of related pages displayed on both databases.
+Whether you’re creating a new relation or editing an existing one, it’s much easier to configure and visualize your relations to perfectly fit your workflow.","May 3, 2022",5
+"New API, integrations & link previews","Bring files from Pitch, Amplitude, GRID & Hex into Notion","View charts, graphs, and presentations, right inside your Notion docs and tasks. Just paste a link from Pitch, Amplitude, GRID or Hex to create a link preview!
+Include Pitch decks right inside in your meeting notes
+Show up-to-date charts from Amplitude in product reviews
+Include interactive charts and calculators from GRID in your Notion docs
+Enable easy access to Hex charts and graphs across your company
+
+
+When you create a link preview, it will be visible to anyone who has access to that page. If there are folks on your team who don't have access to these tools, link previews are a great way to bring more visibility to this work.","May 9, 2022",5
+"New API, integrations & link previews","Integrate your workspace with Census, Rootly & Bardeen.ai","Connect your Notion workflows with even more tools, creating a central source of truth for your team. Browse the Integration Gallery to find new additions, including:
+Census, a reverse ETL tool that syncs trusted data from your warehouse to Notion
+Rootly, a Slack-native incident management app that automatically sends incident reports to Notion
+Bardeen.ai, an automation tool that sets up recurring workflows in Notion
+See more →","May 9, 2022",5
+"New API, integrations & link previews",Build your own link previews with Notion’s new API,,"May 9, 2022",5
+"Notion 2.17, now with Synced Databases, status property & more","Synced Databases, now in open beta","See up-to-date information about your Jira tickets & GitHub PRs, all synced into Notion as a database. When changes are made outside of Notion, Synced Databases update automatically. Use database features like views, filters, relations & rollups to easily share and connect information across your team.
+Give cross-functional teams immediate visibility into your sprints, even if they don’t have a Jira or GitHub login. Folks across the company — from leadership to individual contributors, marketing to sales — can see information from Jira & GitHub without leaving Notion.
+Use relations to connect your GitHub PRs to your tasks database in Notion, or your Jira tickets to a company goals database. Then use rollups to see detailed info about each item, like project status, or a timestamp for the most recent edit.
+Synced Databases will be available in open beta, rolling out to everyone in the coming weeks. If you don't see it yet, you will soon!
+Learn more →","June 29, 2022",6
+"Notion 2.17, now with Synced Databases, status property & more",Status property,"Your databases have a new, purpose-built status property for assigning status to your projects or tasks. Get a clear view of what needs to be done, what’s in progress, and what’s completed — without the hassle of manually configuring a custom property on every new project database.
+Status options are grouped by category: To-Do, In progress and Complete, so that it’s easier to organize, group, filter, and view.
+Each property comes pre-loaded with 3 options. Edit or add as many options as you need to fit your workflow, and customize colors.
+Display your status property as familiar select tags, or convenient checkboxes.
+Learn more →","June 29, 2022",6
+"Notion 2.17, now with Synced Databases, status property & more",Improved database relations,"Connect your databases to each other, with newly improved relation properties.
+The relation picker has a new design, allowing you to find and add pages from the related database with ease.
+See a preview of information from the other database, right on the relation property. Just click the ••• at the upper right corner of the relation picker, and select which properties you’d like to display on your relation.
+Relations are faster and more responsive, letting you work more efficiently.
+Learn more about database relations →","June 29, 2022",6
+"Notion 2.17, now with Synced Databases, status property & more",Request access to pages,"Colleague sent you a link to a Notion page, but you don’t have permission to view? Before, you would see an error message, instructing you to reach out to the page owner.
+Now, you can simply click the Request access button, and add an optional note. This triggers a notification to all the folks with Full Access permission to the page, then they can confirm or deny your request.","June 29, 2022",6
+"Faster mobile apps, database side peek & more",Native home tab on iOS & Android,"Your mobile app just got a long list of under-the-hood improvements that make it faster, smoother, and more enjoyable to use. The old web views are getting replaced with native components one piece at a time, starting with a new home tab.
+The iOS app starts 2× faster, and the Android app starts 3× faster
+Your new home tab opens immediately after launching the app, where you can quickly navigate to the page you need
+Once your notifications in the 🔔 tab load once, they’ll be cached to your device for instant access
+Native components make the app feel look and feel smoother, like it was purpose-built for your phone","July 20, 2022",7
+"Faster mobile apps, database side peek & more","Open database pages as side peek, center peek or full page","Now it’s much easier to navigate between pages in your databases. Create the perfect workflow by configuring how pages should open in each view, including a new option for side peek.
+Pages in your Table, Board, List & Timeline layouts will now open in side peek on the right side of your screen by default, making it easier to jump between pages and make quick edits with fewer clicks
+Use side peek to edit the database page’s properties and content on the right side of your screen, and keep your database items visible and interactive on the left side of your screen
+Click the ••• at the top right of your database, and open the Layout menu. Use the “Open pages as” dropdown to set the default for how pages should open in the view: side peek, center peek, or open as full page right away. This setting affects everyone who uses the database view.","July 20, 2022",7
+"Faster mobile apps, database side peek & more",New ways to create columns in your pages,"Columns give you the flexibility to design your Notion pages however you like. Place images and paragraphs of text side by side for an editorial layout, create a lightweight task checklist with columns for each day of the work week, or whatever makes sense to your brain.
+Now, there are new ways to quickly create multi-column layouts:
+Use slash commands with your keyboard such as /col2 and /col3 to create the corresponding number of columns — it even works inside toggles!
+Click the ⋮⋮ block handle to the left of a block, then use the “Turn into” menu to create a 2-5 column layout
+Select 2-5 consecutive blocks, then use the “Turn into” menu to turn each block into its own column
+Hold the option or alt key on your keyboard, then click the “+” button to the left of the block to add a column on the right
+You can still grab a block by its ⋮⋮ block handle, then drag to the far left or right of your screen to create columns
+Learn more about columns →","July 20, 2022",7
+"Faster mobile apps, database side peek & more",Better inline link previews,"When you add a link to Jira, GitHub, Figma and other tools to a Notion page, the “Paste as mention” option creates a dynamic link preview inline with your text.
+Now, you can hover your cursor over inline link previews to immediately see a rich preview of the content: the passcode to a Zoom meeting, status of an Asana task, animated GIFs in Dropbox & more. There’s also a ••• menu at the top right of the preview to reload, turn the inline mention into a full block, or copy the original URL to your clipboard.","July 20, 2022",7
+"Comment reactions, progress bars & more",Emoji react to comments,"A look. A shrug. A thumbs up. Sometimes you don’t need words to get your points across, but a quick emoji can let your teammate know that you ✔️ completed a task, 👀 read their proposal, or 👍 agree with their feedback. To add an emoji reaction to a comment:
+Hover your cursor over a comment, or tap the comment if you’re on mobile
+Click or tap the new 🙂 button at the top right of the comment
+Spend a little too much time finding the perfect emoji to react with
+Learn more about comments →","August 11, 2022",8
+"Comment reactions, progress bars & more",Show numbers & formulas as progress bars,"Visualize the engineering investment for proposed projects, size of sales opportunities, or progress toward completing tasks, all from a quick glance at your database. Click on any of your number or formula properties, then Edit property to find these new customization options:
+Show the number as a bar or ring visualization
+Choose a color to represent the database item
+Divide by a custom number, such as your monthly budget, or total engineering hours for a sprint
+Learn more about database properties →","August 11, 2022",8
+"Comment reactions, progress bars & more",Set a default template for databases,"Database templates automatically add some structure to new database entries: a specific format for bug reports, a set of requirements for content requests, an agenda outline for recurring meetings…. but when your teammates add new pages to your database, there hasn’t been a way to enforce that they use a specific template — until now. Here’s how:
+Click the down arrow to the right of the New button at the top right of your database
+Click the ••• to the right of a template, Set as default, then choose whether the default should only apply to the current view, or the entire database
+When anyone adds a new page, it’ll automatically apply your default template every time","August 11, 2022",8
+"Comment reactions, progress bars & more",New icon set for pages & callouts,"We’ve heard it many times: selecting the perfect icon for your doc is a special kind of Notion therapy. But emojis aren’t for everyone — if you prefer a minimalist aesthetic, there’s a new set of 600+ icons just for you. Click the new Icons tab to the right of Emojis when you’re selecting an icon for your page or callout block, and select from 10 different colors to match your mood.","August 11, 2022",8
+"Comment reactions, progress bars & more",Align images and other embedded content,"Finally! Now you can align images, videos, PDFs and other embed blocks to create the perfect layout. Just hover your cursor over a piece of media (or click the ⋮⋮ menu to the left of the block), and click the appropriate option to align on the left, center, or right side of your page.
+Learn more about adding images →","August 11, 2022",8
+"Comment reactions, progress bars & more",Previews & mentions of Notion comments,"Show a preview or inline mention of a Notion comment, along with all the context: who wrote the comment, when, and on which page. To do this:
+Click the ••• at the top right of a comment, then Copy link to discussion
+Paste the URL in the Notion page where you want to reference that comment
+Select Paste as preview to create a full-width block, or Paste as mention for a preview inline with your text","August 11, 2022",8
+"Comment reactions, progress bars & more",1-page limit for database relations,"Relations help you query and connect information from separate databases. But for certain workflows such as “projects should only have 1 requirements doc,” or “a team should only have one manager,” it can be helpful to add some guardrails. Now when you configure your relation properties, you’ll see the option to add a 1 page limit.","August 11, 2022",8
+Easier database editing & more,Easier edits in your Board view databases,"Making lots of edits in a Board view database used to take a while: click on a card, make your edits, go back to the Board view, make another edit — like eating a bowl of rice one grain at a time.
+Now, you can update database properties in the Board view without needing to open each record one by one. Just click on a property and make edits on the card.
+Learn more about Board view →","August 25, 2022",8
+Easier database editing & more,Drag a value from one cell to fill other cells,"Command + V can take a break. While using a database in Table view, you can select and drag the value of one cell to fill all other selected cells. Just click and hold the small blue circle at the bottom of any cell, then drag up or down to other cells.
+
+If you like shortcuts, use Command + D to paste the value of a starting cell to other selected cells
+Learn how to create your first database →","August 25, 2022",8
+Easier database editing & more,A new section for relation properties in database pages,"It’s now easier to see all the items related to a Notion page, in a new page section for database relations. Now, you can see up to 10 relations at a time in a dedicated section at the top of a Notion page, and edit those properties directly – without needing to go into the related database. Here’s how:
+Open up a Notion page with a database relation property.
+Click on any relation property.
+Under “Show as,"" click on “As page section”
+This feature will be rolling out to everyone in the coming days. If you don't see it yet, you will soon!","August 25, 2022",8
+Easier database editing & more,Improvements to Synced Databases with Jira and GitHub,"Synced Databases show you up-to-date information about your Jira tickets & GitHub PRs and issues, all in a Notion database. Now you can easily find the information you’d like to turn into a Synced Database with a new search experience, so you can find that exact Jira board or GitHub repo you’d like to bring into Notion. Here’s how it works:
+Enter “/” in your Notion page to bring up the slash command menu and search for “Jira” or “GitHub”
+Click on “Jira” or “GitHub” under “Synced Databases”, and authenticate to your Jira or GitHub account if you haven’t already done so
+Select the Jira board or GitHub PR list as the source in the menu, or paste a link in the search bar, and see it populate immediately in your Notion page
+Synced Databases are now available for all users in open beta, with some limits for users on the Personal plan.","August 25, 2022",8
+"Notion 2.18, now with teamspaces",Organize your company with teamspaces,"Think of your Notion workspace as a digital office: a comfortable and focused place for folks to do their best work. But while it’s useful to have everyone under the same roof, different teams need their own spaces, and the flexibility to change how you work as the company grows.
+
+Teamspaces are like mini-workspaces within your workspace: custom sections of the sidebar that can be adapted to every company department, working group, cross-functional project, or whatever you need to get teams on the same page. And for the first time, every employee will be able to curate and customize their own view of the company’s Notion workspace, by joining the teamspaces relevant to their role and priorities (and leaving the ones that aren’t).
+Click All teamspaces at the top of your sidebar to get started. Click the + New teamspace button to create a space for your department, office location, or working group, and join relevant teamspaces to add them to your sidebar.
+Customize teamspaces to meet the needs of every team. Every teamspace can have its own look and feel, members & settings. Enterprise workspaces gain granular control over employees’ ability to publish pages to the web, export, and add guest collaborators, on a space-by-space basis.
+New privacy settings and roles ensure that everyone has the appropriate level of access to content. Designate teamspace owners to control membership, security settings & permission levels.
+
+
+You might not see teamspaces in your workspace yet — the feature will be rolled out slowly, so you'll see these changes between now and mid September.
+Learn more about teamspaces →","August 29, 2022",8
+"Notion 2.18, now with teamspaces","“Quick find” is now “Search,” and it’s better than ever","When folks struggle to find the context they need to get work done, company momentum slows to a glacial pace. “Status update” meetings get scheduled. Browser tabs multiply. And precious little time remains to get real work done. So we’re doubling down on search, so everyone can quickly and easily find what they need in Notion.
+See a list of all of your recently visited pages when you open the search window, just like a browser history. Then jump back to your recent pages with one click.
+Narrow the scope of your search with better filters. Quickly limit your search to a specific teamspace, page, author, date & more.
+Search for pages that include an exact phrase, by wrapping your “search term in quotation marks.”
+See search results 40-50% faster, with instant access for frequently viewed pages.
+Find more accurate search results, thanks to improvements to our search engine tech.
+
+Learn more about search →","August 29, 2022",8
+"Notion 2.18, now with teamspaces",See when pages were last updated,"Like bread, stale pages aren't very appealing. When you're viewing a team doc, you want to make sure you're seeing the most up-to-date info available.
+Now you can quickly check the top-right of your page to see when a page was last updated, and hover your cursor to see who edited the page most recently, and who created it.","August 29, 2022",8
+"Notion 2.18, now with teamspaces",New tools and controls for admins ENTERPRISE,"IT specialists, security teams, program managers — these are the heroes behind the curtain, ensuring everyone has access to the tools they need to be productive, and that those tools are well-maintained and have the security controls the organization needs. With them in mind, we set out to make Notion Enterprise workspaces much easier to deploy and manage at scale.
+New membership admin and workspace owner roles ensure that every employee has the appropriate level of access to workspace security settings & billing.
+Workspace owners can customize who should be able to create additional Notion instances using their verified domain.
+When employees leave the company, workspace owners can re-assign their content to ensure nothing goes missing.
+Now, workspace owners can view the audience or visibility level of each target page in the audit log.","August 29, 2022",8
+More improvements to editing,Editor bug bash,"The more you write in Notion, the more you notice little quirks you don’t expect — things that interrupt your train of thought. So we combed through your feedback to find a few of these rough edges, and made some tweaks so the editor feels more natural:
+Spell-check now works more reliably when you select a word to fix its spelling
+Inserting an item at the start or end of a number, todo, or bullet list feels more seamless
+When a table or database is the last block on a page, clicking beneath it will automatically create a new block
+New shortcuts for strikethrough: (Ctrl/cmd + Shift + X) or (Ctrl/cmd + Shift + S)
+Here’s a guide on writing and editing basics →","September 13, 2022",9
+More improvements to editing,Browse through a page’s images from one place,"It can take a while to scroll through all the images that may be spread out on a page (e.g. PRDs with many product mock-ups). Now, once you double-click on any image, you have the option to scroll through all the other images on the same page. It’s also easier to zoom and download from the new menu.
+Learn more about images, files & media →","September 13, 2022",9
+More improvements to editing,Choose a type when creating a database property,"Stay in flow while building your team’s database. Instead of a new property defaulting to text and changing it later, you can now choose the type (e.g. multi-select, status, etc.) when you click “+” to create a new one.
+Learn more about database properties →","September 13, 2022",9
+More improvements to editing,Wider columns on standard width pages,"Your standard width pages just got even more flexible, with more possibilities for creative layouts. Now you can resize a list of columns to be wider than the margins of a standard width page. Just drag and resize columns as you usually would and they’ll expand beyond the margin of the page they're on.
+Learn more about columns, tables, and headings →","September 13, 2022",9
+More improvements to editing,Improvements to settings for third-party app connections,"View and manage your settings for third-party app connections more easily with these new improvements:
+Integrations to third-party services like Zapier, IFTTT, and Typeform, are now called “Connections” in the Settings menu and page menu.
+“My connected apps”, a tab in the “Settings and Members” menu for viewing and managing connections, has now been renamed to “My connections”.
+You can now manage page access for all connections in the ... menu at the top right-hand side of a page. These were previously shown in the “Share” menu of a page.
+Workspace owners can view and manage connections to all third-party integrations within their workspace from the “Connections” tab in the “Settings and Members” menu. Users that are not Workspace owners will no longer see this tab.
+
+Learn more about connecting third-party apps to Notion here →","September 13, 2022",9
+Public pages that automatically expire and more,Auto-expiring public pages,"Some public pages are only meant to be shared for a limited time (e.g. marketing one-pagers or investor updates). Now, when you select Share to web on a paid plan, you have the option to set an auto-expiration date using the new Link expires button.
+
+Learn more about public pages & web publishing →","October 12, 2022",10
+Public pages that automatically expire and more,Dynamic @mentions in the title of a database template,"Less manual entry is always a good thing. Now, you can include variables like @today/@now/@me in the title of your database template (e.g. including @today in the title of a meeting notes template ensures the current date is always in a new meeting note).
+Learn more about database templates →","October 12, 2022",10
+Public pages that automatically expire and more,Interact with text in images on iOS,"A picture is worth more than a thousand words – especially if you can copy and paste text from it. After adding an image with text in your iOS app, you can now:
+Select and copy text + translate
+Click on URLs, open addresses in Maps, create calendar events, save phone numbers, etc.
+Interact with a QR code
+
+This feature is only available on iPhone XS and above with iOS 16
+Download Notion for iOS →","October 12, 2022",10
+Public pages that automatically expire and more,Use Notion Web Clipper to pull recipes,"No more scrolling through extra fluff to view a recipe. When you use our web clipper to add a recipe to your workspace from a site like The Food Network, we’ll automatically place the recipe at the top of your Notion page.
+
+Download the Notion Web Clipper →","October 12, 2022",10
+"New connections to Box, Lucid, and more – bringing additional context and transparency to Notion","See external files, designs, and tasks in Notion with new link previews","Paste a link from Box, Lucid, Linear, and GitLab to see previews that automatically update in Notion.
+Bring in files from Box – like a spreadsheet containing next year’s forecast models, or images for a marketing campaign – directly in Notion, so your team can see all the files they need for a project in a single place.
+Preview your latest whiteboard brainstorm and product designs from Lucidchart and Lucidspark in Notion, giving your team the context they need to spec out the next stage of a project.
+View the latest status updates from Linear tasks in Notion, keeping your team on the same page as projects progress from one milestone to the next.
+Link to a GitLab Merge Request, so that your team can see the latest status update in Notion.
+
+If you’re a developer interested in building a link preview with Notion, fill out this form →
+Learn more about link previews →","October 27, 2022",10
+"New connections to Box, Lucid, and more – bringing additional context and transparency to Notion","Synced Databases, now with support for GitLab and Asana","See up-to-date information from GitLab and Asana in a Synced Database (currently in open beta). To get started, paste a link to a GitLab repository or Asana project directly into Notion, and see it rendered as a Notion database.
+
+Use database filters to share custom views of Asana projects and tasks, so that everyone can see the status of a project even if they don’t have an Asana log-in.
+Connect GitLab Merge Requests to your task database in Notion, and give team members across your company an up-to-date view of the status – all without leaving Notion.
+Learn more about Synced Databases →","October 27, 2022",10
+"Recurring tasks, meeting notes, and updates","Set up recurring tasks, meeting notes, and more with repeating database templates","Our tools should do more for us. Now you can set a database template to duplicate on a repeating basis. Here are some ways to use it:
+Create recurring tasks to track daily or weekly to-dos
+Automatically generate a meeting agenda for a daily standup
+Create project updates on a weekly or daily basis
+To use it, open a Notion database and click on the blue arrow on the New button to see your database templates. Click on ... on any template, where you’ll see a new option called Repeat. Select the frequency for the template to be automatically duplicated.
+
+Learn more about repeating database templates →","November 8, 2022",11
+"Recurring tasks, meeting notes, and updates",Remove vertical gridlines in Table view,"You can now remove vertical gridlines from your database Table view to get a cleaner look. Here’s how:
+Go to the ... menu in the top right-hand side of your Notion database in a Table view
+Click on Layout and toggle gridlines on or off
+
+Learn more about Table view →","November 8, 2022",11
+"Recurring tasks, meeting notes, and updates",Connect Notion’s “People” property in Synced Databases for GitHub and Jira,"You can now connect the People property from your Notion database to identities in GitHub and Jira when using Synced Databases (available in open beta). Once you’ve enabled this setup in GitHub and Jira, fields that feature people – like GitHub contributors and Jira assignees – will be mapped to their profiles in Notion, based on email.
+Learn more about people properties in Synced Databases →","November 8, 2022",11
+Notion AI + templates to build out your workspace,Notion AI (in private alpha),"Notion AI is a writing assistant that can help you write, brainstorm, edit, summarize, and more. Consider Notion AI your partner. It augments your thinking — helping you save time or spend it more wisely.
+
+Learn more and sign up for the waitlist →
+
+P.S. Help us build the future of Notion AI: open roles at Notion","November 17, 2022",11
+Notion AI + templates to build out your workspace,"Build your workspace with new templates for project management, meetings, and docs","It’s now easier for you to set up your team’s workspace with database-powered templates for managing projects, tracking meeting notes, and sharing docs. These templates come pre-configured with the database views, pages, and relations needed for your team to effectively manage their work in Notion.
+These include:
+Three project management templates, to help you build a simple to-do list, manage your team’s projects and tasks, or break out your tasks into time-boxed sprints
+Meetings, so that your team can track all meeting notes and action items in one place
+Docs, so your team can easily find, document, and share information across your team.
+In addition, our template gallery has been redesigned and updated so that it’s easier to find any template – from a company wiki to a daily habit tracker – all in one place.
+To access the template gallery, click on Templates in the left sidebar menu. This will be rolling out to all users in the coming weeks. If you don’t yet see it in your workspace or local language, you will soon!
+Explore Notion templates →
+Learn more about new templates for projects, meetings, and docs →","November 17, 2022",11
+Notion AI + templates to build out your workspace,Jump to your recently viewed pages on mobile,"You and your work should be able to smoothly transition from your laptop to your phone. On your mobile app, you’ll now see a Jump back in section that displays the pages you viewed most recently. Use the train ride home to review a product doc without needing to frantically search Slack.
+Download the Notion mobile app →","November 17, 2022",11
+Notion AI + templates to build out your workspace,Custom icons for database views and properties,"Finding the perfect emoji/icon is an art. Now you can add a custom icon to any database view or property 🙂
+Go to the edit settings for any database view or property
+Click on the icon next to the name
+Change the default icon to one of the 600+ available icons
+
+Learn more about icons →","November 17, 2022",11
+Notion AI + templates to build out your workspace,Add additional properties to Synced Databases,"You can now add additional database properties to any Synced Database (currently in open beta with GitHub, Jira, GitLab, and Asana), where previously you could only create a relation or roll-up. Use this to provide your team with extra context about database items like Jira tickets, GitHub Issues, Asana tasks, and more, directly in the Synced Database in Notion – for example, add a text property with information about a Jira ticket, or add a Notion tag to easily create a view of specific GitHub PRs.
+Go to any Synced Database
+Click on the + to add any property
+
+Learn more about Synced Databases →","November 17, 2022",11
+Expanded Free Plan & new Business Plan,Still free for everyone. Now with even more features.,"In May 2020, we made a commitment: Notion should be free for personal use. Today, we’re taking this a step further. Now the Free Plan is more collaborative and capable, with these features that used to require a paid subscription:
+More guests: invite up to 10 collaborators, friends & family to your pages
+Page history: view and restore previous versions of your content, up to 7 days
+Teamspaces: create custom sections in your sidebar for a new layer of organization
+
+
+As always, individuals can add unlimited pages and blocks to Notion. And teams can kick the tires before paying, with a limited block trial — no time limit, no credit card needed.
+Learn more about the new plans →","December 7, 2022",12
+Expanded Free Plan & new Business Plan,New Business Plan,"Trying to get cross-functional teams on the same page? Notion’s new Business Plan was designed for companies who need a few extra tools for admins, to ensure employees are using the workspace effectively:
+SAML SSO: securely manage employee access at scale with single sign-on
+Private teamspaces: dedicated areas for working groups to collaborate on sensitive docs
+Bulk PDF export: perfect for legal and compliance backups of the entire workspace
+COMING SOON Advanced page analytics: see who’s viewing and editing your content, and when
+
+
+Request a trial →","December 7, 2022",12
+Expanded Free Plan & new Business Plan,Choose a default skin tone and icon color,"When you add an emoji or icon for your page, you’ll now see an option to set a default skin tone and icon color. Your chosen color will be pre-selected anytime you add an emoji or icon in Notion.
+Learn more about customizing and styling your content →","December 7, 2022",12
+Expanded Free Plan & new Business Plan,New “this week” filter for your tasks,"Getting the most out of your week starts with knowing what to work on. Now you can always see what tasks need your focus in the current week using the new “This week” filter.
+
+To use it:
+Create an Advanced filter in a database
+Select a date property and then select the qualifier “Is within”
+Select “This week” as the filter option
+Learn more about advanced database filters →","December 7, 2022",12
+Notion in German,Notion is now available in German (beta),"Following our French language launch earlier this year, we're excited to expand our support for our European users—from today, Notion is available in German (beta).
+
+After changing your language to German, click Vorlagen at the bottom of your left-hand sidebar to find German templates
+Go to notion.so/de-de/help to find translated guides & tutorials
+
+To change your language settings on your desktop, go to Settings and Members, then select German under Languages and regions.
+
+Mobile and desktop apps will be released in batches; please wait until your app reflects the latest version. If your phone language is set to German, the Notion app will automatically change to German when available.","December 13, 2022",12
+"Notion 2.19, now with subtasks & dependencies",Database sub-items,"Break out any project or database item into smaller tasks, so nothing falls through the cracks. Use sub-items to:
+List out each sub-task of a project to make it easier to assign and track your team’s progress
+Document your company’s org chart by team and sub-team
+See all the key results that ladder up into a company-wide objective
+
+
+To get started:
+Go to the ••• menu in the top right-hand side of your Notion database in a Table layout
+Click on Sub-items and go through the set-up flow
+Hover over any database row, and then click on the toggle on the left side of the row to add a new sub-item
+Learn more →","December 15, 2022",12
+"Notion 2.19, now with subtasks & dependencies",Dependencies,"Easily visualize when one task is dependent on another task’s completion. Dependencies can easily be viewed with directional arrows in Timeline view, allowing your team to see conflicts and roadblocks early, and stay on track.
+
+
+To get started:
+Go to the ••• menu in the top right-hand side of your Notion task database in Timeline layout
+Click on Dependencies and go through the set-up flow
+Hover over any database item, click the yellow arrow, and then drag it to connect to the item it is blocking.
+Learn more →","December 15, 2022",12
+"Notion 2.19, now with subtasks & dependencies",Tabs in your desktop app,"Switch back and forth between your projects, docs & wiki in Notion’s Mac or Windows app, without the added distraction of your web browser.
+
+Use keyboard shortcuts to make this easy and seamless:
+Command/Control + Click now opens a tab in a new tab rather than a new Window
+Command/Control + Shift + N opens a new window
+Command/Control + Number now switches workspaces
+Download the desktop app →","December 15, 2022",12
+"Notion 2.19, now with subtasks & dependencies",Always open links in your desktop app,"There are two reasons to use Notion in your desktop app instead of your web browser: 50% faster performance, and a more focused writing experience.
+But whenever you clicked on a link to a Notion page (in an email or Slack message, perhaps), it would open in your browser even if you had the desktop app installed... until now!
+
+
+When a link to a Notion page opens in your web browser, you should see a pop-up that lets you open the link in your desktop app instead.
+To change your preference, go to Settings & members → My notifications & settings → Open links in desktop app.
+Download the desktop app →","December 15, 2022",12
+"Notion 2.19, now with subtasks & dependencies",Easier edits for databases in List view,"Stay in the flow by making quick edits in List view, without the need to open every database page. Just click on any property to make changes, or use these keyboard shortcuts:
+Use Shift + Enter on any selected page, to create a new item underneath
+Use tab to move between properties for easy editing
+Learn more →","December 15, 2022",12
+"Notion 2.19, now with subtasks & dependencies","Resize link previews featuring images – for Figma, Dropbox, Lucid, and more","Data scientists are comfortable in Amplitude. Designers know their way around Figma. But it can be challenging to find the updates you need from these tools if you’re on marketing, sales, support, etc.
+Notion supports dynamic link previews from a growing list of partners so you can bring more visibility to the info in those tools. And now, any previews that contain an image are fully resizable.
+Learn more →","December 15, 2022",12
